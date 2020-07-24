@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="harleys.Lab9Controller">
+   <children>
+      <ImageView fx:id="imageWindow" fitHeight="388.0" fitWidth="379.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="394.0" mnemonicParsing="false" onAction="#load" prefHeight="25.0" prefWidth="103.0" text="Load" />
+      <Button layoutX="394.0" layoutY="40.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="103.0" text="Save" />
+      <Button layoutX="394.0" layoutY="80.0" mnemonicParsing="false" onAction="#reload" prefHeight="25.0" prefWidth="103.0" text="Reload" />
+      <Button layoutX="394.0" layoutY="120.0" mnemonicParsing="false" onAction="#grayscale" prefHeight="25.0" prefWidth="103.0" text="Grayscale" />
+      <Button layoutX="394.0" layoutY="160.0" mnemonicParsing="false" onAction="#negative" prefHeight="25.0" prefWidth="103.0" text="Negative" />
+      <Button layoutX="394.0" layoutY="200.0" mnemonicParsing="false" onAction="#red" prefHeight="25.0" prefWidth="103.0" text="Red" />
+      <Button layoutX="394.0" layoutY="240.0" mnemonicParsing="false" onAction="#redGray" prefHeight="25.0" prefWidth="103.0" text="Red-Gray" />
+      <Button fx:id="showFilter" layoutX="394.0" layoutY="280.0" mnemonicParsing="false" onAction="#showFilter" prefHeight="25.0" prefWidth="103.0" text="Show Filter" />
+   </children>
+</AnchorPane>
